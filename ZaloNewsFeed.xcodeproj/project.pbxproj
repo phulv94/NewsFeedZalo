@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87CC4D352E8AE09100019A91 /* ZaloNewsFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D342E8AE09100019A91 /* ZaloNewsFeedApp.swift */; };
+		87CC4D372E8AE09100019A91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D362E8AE09100019A91 /* ContentView.swift */; };
+		87CC4D392E8AE09200019A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CC4D382E8AE09200019A91 /* Assets.xcassets */; };
+		87CC4D3D2E8AE09200019A91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CC4D3C2E8AE09200019A91 /* Preview Assets.xcassets */; };
+		87CC4D472E8AE09200019A91 /* ZaloNewsFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D462E8AE09200019A91 /* ZaloNewsFeedTests.swift */; };
+		87CC4D512E8AE09200019A91 /* ZaloNewsFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D502E8AE09200019A91 /* ZaloNewsFeedUITests.swift */; };
+		87CC4D532E8AE09200019A91 /* ZaloNewsFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D522E8AE09200019A91 /* ZaloNewsFeedUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87CC4D432E8AE09200019A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CC4D292E8AE09100019A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CC4D302E8AE09100019A91;
+			remoteInfo = ZaloNewsFeed;
+		};
+		87CC4D4D2E8AE09200019A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87CC4D292E8AE09100019A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87CC4D302E8AE09100019A91;
+			remoteInfo = ZaloNewsFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87CC4D312E8AE09100019A91 /* ZaloNewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaloNewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CC4D342E8AE09100019A91 /* ZaloNewsFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloNewsFeedApp.swift; sourceTree = "<group>"; };
+		87CC4D362E8AE09100019A91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87CC4D382E8AE09200019A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87CC4D3A2E8AE09200019A91 /* ZaloNewsFeed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZaloNewsFeed.entitlements; sourceTree = "<group>"; };
+		87CC4D3C2E8AE09200019A91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87CC4D422E8AE09200019A91 /* ZaloNewsFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaloNewsFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CC4D462E8AE09200019A91 /* ZaloNewsFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloNewsFeedTests.swift; sourceTree = "<group>"; };
+		87CC4D4C2E8AE09200019A91 /* ZaloNewsFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaloNewsFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CC4D502E8AE09200019A91 /* ZaloNewsFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloNewsFeedUITests.swift; sourceTree = "<group>"; };
+		87CC4D522E8AE09200019A91 /* ZaloNewsFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloNewsFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87CC4D2E2E8AE09100019A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC4D3F2E8AE09200019A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC4D492E8AE09200019A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87CC4D282E8AE09100019A91 = {
+			isa = PBXGroup;
+			children = (
+				87CC4D332E8AE09100019A91 /* ZaloNewsFeed */,
+				87CC4D452E8AE09200019A91 /* ZaloNewsFeedTests */,
+				87CC4D4F2E8AE09200019A91 /* ZaloNewsFeedUITests */,
+				87CC4D322E8AE09100019A91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87CC4D322E8AE09100019A91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CC4D312E8AE09100019A91 /* ZaloNewsFeed.app */,
+				87CC4D422E8AE09200019A91 /* ZaloNewsFeedTests.xctest */,
+				87CC4D4C2E8AE09200019A91 /* ZaloNewsFeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87CC4D332E8AE09100019A91 /* ZaloNewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				87CC4D342E8AE09100019A91 /* ZaloNewsFeedApp.swift */,
+				87CC4D362E8AE09100019A91 /* ContentView.swift */,
+				87CC4D382E8AE09200019A91 /* Assets.xcassets */,
+				87CC4D3A2E8AE09200019A91 /* ZaloNewsFeed.entitlements */,
+				87CC4D3B2E8AE09200019A91 /* Preview Content */,
+			);
+			path = ZaloNewsFeed;
+			sourceTree = "<group>";
+		};
+		87CC4D3B2E8AE09200019A91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87CC4D3C2E8AE09200019A91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87CC4D452E8AE09200019A91 /* ZaloNewsFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				87CC4D462E8AE09200019A91 /* ZaloNewsFeedTests.swift */,
+			);
+			path = ZaloNewsFeedTests;
+			sourceTree = "<group>";
+		};
+		87CC4D4F2E8AE09200019A91 /* ZaloNewsFeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87CC4D502E8AE09200019A91 /* ZaloNewsFeedUITests.swift */,
+				87CC4D522E8AE09200019A91 /* ZaloNewsFeedUITestsLaunchTests.swift */,
+			);
+			path = ZaloNewsFeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87CC4D302E8AE09100019A91 /* ZaloNewsFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CC4D562E8AE09200019A91 /* Build configuration list for PBXNativeTarget "ZaloNewsFeed" */;
+			buildPhases = (
+				87CC4D2D2E8AE09100019A91 /* Sources */,
+				87CC4D2E2E8AE09100019A91 /* Frameworks */,
+				87CC4D2F2E8AE09100019A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZaloNewsFeed;
+			productName = ZaloNewsFeed;
+			productReference = 87CC4D312E8AE09100019A91 /* ZaloNewsFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87CC4D412E8AE09200019A91 /* ZaloNewsFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CC4D592E8AE09200019A91 /* Build configuration list for PBXNativeTarget "ZaloNewsFeedTests" */;
+			buildPhases = (
+				87CC4D3E2E8AE09200019A91 /* Sources */,
+				87CC4D3F2E8AE09200019A91 /* Frameworks */,
+				87CC4D402E8AE09200019A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CC4D442E8AE09200019A91 /* PBXTargetDependency */,
+			);
+			name = ZaloNewsFeedTests;
+			productName = ZaloNewsFeedTests;
+			productReference = 87CC4D422E8AE09200019A91 /* ZaloNewsFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87CC4D4B2E8AE09200019A91 /* ZaloNewsFeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CC4D5C2E8AE09200019A91 /* Build configuration list for PBXNativeTarget "ZaloNewsFeedUITests" */;
+			buildPhases = (
+				87CC4D482E8AE09200019A91 /* Sources */,
+				87CC4D492E8AE09200019A91 /* Frameworks */,
+				87CC4D4A2E8AE09200019A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87CC4D4E2E8AE09200019A91 /* PBXTargetDependency */,
+			);
+			name = ZaloNewsFeedUITests;
+			productName = ZaloNewsFeedUITests;
+			productReference = 87CC4D4C2E8AE09200019A91 /* ZaloNewsFeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87CC4D292E8AE09100019A91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					87CC4D302E8AE09100019A91 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					87CC4D412E8AE09200019A91 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 87CC4D302E8AE09100019A91;
+					};
+					87CC4D4B2E8AE09200019A91 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 87CC4D302E8AE09100019A91;
+					};
+				};
+			};
+			buildConfigurationList = 87CC4D2C2E8AE09100019A91 /* Build configuration list for PBXProject "ZaloNewsFeed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87CC4D282E8AE09100019A91;
+			productRefGroup = 87CC4D322E8AE09100019A91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87CC4D302E8AE09100019A91 /* ZaloNewsFeed */,
+				87CC4D412E8AE09200019A91 /* ZaloNewsFeedTests */,
+				87CC4D4B2E8AE09200019A91 /* ZaloNewsFeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87CC4D2F2E8AE09100019A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC4D3D2E8AE09200019A91 /* Preview Assets.xcassets in Resources */,
+				87CC4D392E8AE09200019A91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC4D402E8AE09200019A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC4D4A2E8AE09200019A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87CC4D2D2E8AE09100019A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC4D372E8AE09100019A91 /* ContentView.swift in Sources */,
+				87CC4D352E8AE09100019A91 /* ZaloNewsFeedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC4D3E2E8AE09200019A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC4D472E8AE09200019A91 /* ZaloNewsFeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CC4D482E8AE09200019A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC4D512E8AE09200019A91 /* ZaloNewsFeedUITests.swift in Sources */,
+				87CC4D532E8AE09200019A91 /* ZaloNewsFeedUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87CC4D442E8AE09200019A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CC4D302E8AE09100019A91 /* ZaloNewsFeed */;
+			targetProxy = 87CC4D432E8AE09200019A91 /* PBXContainerItemProxy */;
+		};
+		87CC4D4E2E8AE09200019A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87CC4D302E8AE09100019A91 /* ZaloNewsFeed */;
+			targetProxy = 87CC4D4D2E8AE09200019A91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87CC4D542E8AE09200019A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87CC4D552E8AE09200019A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		87CC4D572E8AE09200019A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZaloNewsFeed/ZaloNewsFeed.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZaloNewsFeed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.ZaloNewsFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87CC4D582E8AE09200019A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZaloNewsFeed/ZaloNewsFeed.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZaloNewsFeed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.ZaloNewsFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87CC4D5A2E8AE09200019A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.ZaloNewsFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaloNewsFeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZaloNewsFeed";
+			};
+			name = Debug;
+		};
+		87CC4D5B2E8AE09200019A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.ZaloNewsFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaloNewsFeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZaloNewsFeed";
+			};
+			name = Release;
+		};
+		87CC4D5D2E8AE09200019A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.ZaloNewsFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZaloNewsFeed;
+			};
+			name = Debug;
+		};
+		87CC4D5E2E8AE09200019A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.ZaloNewsFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZaloNewsFeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87CC4D2C2E8AE09100019A91 /* Build configuration list for PBXProject "ZaloNewsFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC4D542E8AE09200019A91 /* Debug */,
+				87CC4D552E8AE09200019A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CC4D562E8AE09200019A91 /* Build configuration list for PBXNativeTarget "ZaloNewsFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC4D572E8AE09200019A91 /* Debug */,
+				87CC4D582E8AE09200019A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CC4D592E8AE09200019A91 /* Build configuration list for PBXNativeTarget "ZaloNewsFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC4D5A2E8AE09200019A91 /* Debug */,
+				87CC4D5B2E8AE09200019A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CC4D5C2E8AE09200019A91 /* Build configuration list for PBXNativeTarget "ZaloNewsFeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC4D5D2E8AE09200019A91 /* Debug */,
+				87CC4D5E2E8AE09200019A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87CC4D292E8AE09100019A91 /* Project object */;
+}
