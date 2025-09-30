@@ -52,8 +52,8 @@ final class Manager {
 }
 ```
 ## 🚀 Getting Started
-- 1. Clone this repo:
+- Clone this repo:
   ```bash
     git clone https://github.com/<username>/ZaloNewsFeed.git
-- 2. Open project in Xcode
-- 3. Run on iOS Simulator or real device.
+- Open project in Xcode
+- Run on iOS Simulator or real device.
