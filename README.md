@@ -1,6 +1,6 @@
 # 📱 Zalo News Feed Clone
 
-A simple clone of **Zalo News Feed** built with SwiftUI, applying **MVVM architecture** and a `Manager` Singleton to initialize and manage sample data.
+A simple clone of **Zalo News Feed** built with SwiftUI, applying **MVVM architecture** and a `Manager` Singleton to initialize and manage sample data model.
 
 ---
 
