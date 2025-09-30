@@ -1,17 +1,20 @@
-//
-//  ZaloNewsFeedApp.swift
-//  ZaloNewsFeed
-//
-//  Created by Nguyen Nhat Anh on 29/09/2025.
-//
+
 
 import SwiftUI
 
 @main
 struct ZaloNewsFeedApp: App {
+    enum NewsFeedTabs: Equatable, Hashable {
+        case story
+        case video
+    }
+    @State private var selectedTab:NewsFeedTabs = .story
     var body: some Scene {
         WindowGroup {
-            ContentView() // abc
+            SearchBarView()
+            HStack {
+                HeaderTabsView()
+            }
         }
     }
 }
