@@ -15,11 +15,13 @@ A simple clone of **Zalo News Feed** built with SwiftUI, applying **MVVM archite
 ## 📸 Screenshots
 
 ### Tab Diary
-<img width="300" src="https://github.com/user-attachments/assets/a6eaf732-97c8-4590-b854-e98fd863720a" />
+<img width="300"  alt="image" src="https://github.com/user-attachments/assets/90a0f439-c980-4799-a61d-6b24ab95e756" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/eb787581-3111-4714-8d6c-fe1c8a0685e4" />
 <img width="300" src="https://github.com/user-attachments/assets/fc6d168a-c3bb-4073-8b4c-fde04f6a641f" />
 
 ### Tab Video
-<img width="300" src="https://github.com/user-attachments/assets/7181f7cf-1956-4a1a-887e-171538524eda" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/30ada601-6168-45ec-a220-434b539696c0" />
+
 
 ---
 
