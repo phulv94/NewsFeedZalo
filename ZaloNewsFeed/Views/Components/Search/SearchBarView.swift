@@ -9,11 +9,18 @@ struct SearchBarView: View {
                     Image(systemName: "magnifyingglass")
                         .foregroundStyle(.white)
 
-                    TextField("Search", text: $searchText)
-                        .textFieldStyle(.plain)
-                        .textInputAutocapitalization(.none)
-                        .disableAutocorrection(true)
-                        .foregroundStyle(.white)
+            ZStack(alignment: .leading) {
+                            if searchText.isEmpty {
+                                Text("Search")
+                                    .foregroundStyle(.white.opacity(0.7))
+                            }
+
+                            TextField("", text: $searchText)
+                                .textFieldStyle(.plain)
+                                .textInputAutocapitalization(.none)
+                                .disableAutocorrection(true)
+                                .foregroundStyle(.white.opacity(0.8))
+                        }
 
                     Spacer(minLength: 0)
 
