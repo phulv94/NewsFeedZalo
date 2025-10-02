@@ -84,44 +84,50 @@ private struct VideoCardView: View {
 private struct VideoThumbnail: View {
     let url: URL
 
+    private let cornerRadius: CGFloat = 16
+
     var body: some View {
-        ZStack {
-            AsyncImage(url: url) { phase in
-                switch phase {
-                case .empty:
-                    Color(.systemGray5)
-                case .success(let image):
-                    image
-                        .resizable()
-                        .scaledToFill()
-                case .failure:
-                    Color(.systemGray5)
-                        .overlay(
+        GeometryReader { proxy in
+            let roundedRect = RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+
+            ZStack {
+                roundedRect
+                    .fill(Color(.systemGray5))
+
+                AsyncImage(url: url) { phase in
+                    switch phase {
+                    case .empty:
+                        Color.clear
+                    case .success(let image):
+                        image
+                            .resizable()
+                            .scaledToFill()
+                    case .failure:
+                        ZStack {
+                            Color.clear
                             Image(systemName: "photo")
                                 .font(.title3)
                                 .foregroundStyle(.secondary)
-                        )
-                @unknown default:
-                    Color(.systemGray5)
+                        }
+                    @unknown default:
+                        Color.clear
+                    }
                 }
+                .frame(width: proxy.size.width, height: proxy.size.height)
+                .clipShape(roundedRect)
             }
-            .frame(maxWidth: .infinity)
-            .frame(height: 160)
-            .clipped()
-
-            Circle()
-                .fill(Color.black.opacity(0.45))
-                .frame(width: 52, height: 52)
-                .overlay(
-                    Image(systemName: "play.fill")
-                        .foregroundStyle(.white)
-                        .font(.title2)
-                )
+            .frame(width: proxy.size.width, height: proxy.size.height)
+            .overlay(alignment: .center) {
+                Circle()
+                    .fill(Color.black.opacity(0.45))
+                    .frame(width: 52, height: 52)
+                    .overlay(
+                        Image(systemName: "play.fill")
+                            .foregroundStyle(.white)
+                            .font(.title2)
+                    )
+            }
         }
-        .background(
-            RoundedRectangle(cornerRadius: 16, style: .continuous)
-                .fill(Color(.systemGray5))
-        )
-        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .frame(height: 160)
     }
 }
