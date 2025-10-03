@@ -16,7 +16,6 @@
 		877A266A2E8BDD2100F7A454 /* HeaderTabsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A26692E8BDD2100F7A454 /* HeaderTabsViewModel.swift */; };
 		877A266C2E8BDD4300F7A454 /* VideoTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A266B2E8BDD4300F7A454 /* VideoTabViewModel.swift */; };
 		877A266F2E8BDD7300F7A454 /* FeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A266E2E8BDD7300F7A454 /* FeedDataManager.swift */; };
-		877A26732E8BE72F00F7A454 /* AdsPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A26722E8BE72F00F7A454 /* AdsPostView.swift */; };
 		87CC4D352E8AE09100019A91 /* ZaloNewsFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D342E8AE09100019A91 /* ZaloNewsFeedApp.swift */; };
 		87CC4D392E8AE09200019A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CC4D382E8AE09200019A91 /* Assets.xcassets */; };
 		87CC4D3D2E8AE09200019A91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CC4D3C2E8AE09200019A91 /* Preview Assets.xcassets */; };
@@ -25,8 +24,6 @@
 		87CC4D532E8AE09200019A91 /* ZaloNewsFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D522E8AE09200019A91 /* ZaloNewsFeedUITestsLaunchTests.swift */; };
 		87CC4D632E8AE6BC00019A91 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D622E8AE6BC00019A91 /* SearchBarView.swift */; };
 		87CC4D652E8AE88600019A91 /* StorySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D642E8AE88600019A91 /* StorySectionView.swift */; };
-		87CC4D672E8AE97200019A91 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D662E8AE97200019A91 /* PostView.swift */; };
-		87CC4D692E8AF24200019A91 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D682E8AF24200019A91 /* CreatePostView.swift */; };
 		87CC4D6B2E8AF89B00019A91 /* VideoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CC4D6A2E8AF89B00019A91 /* VideoTabView.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +54,6 @@
 		877A26692E8BDD2100F7A454 /* HeaderTabsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTabsViewModel.swift; sourceTree = "<group>"; };
 		877A266B2E8BDD4300F7A454 /* VideoTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTabViewModel.swift; sourceTree = "<group>"; };
 		877A266E2E8BDD7300F7A454 /* FeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataManager.swift; sourceTree = "<group>"; };
-		877A26722E8BE72F00F7A454 /* AdsPostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsPostView.swift; sourceTree = "<group>"; };
 		87CC4D312E8AE09100019A91 /* ZaloNewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaloNewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CC4D342E8AE09100019A91 /* ZaloNewsFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloNewsFeedApp.swift; sourceTree = "<group>"; };
 		87CC4D382E8AE09200019A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,8 +66,6 @@
 		87CC4D522E8AE09200019A91 /* ZaloNewsFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloNewsFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		87CC4D622E8AE6BC00019A91 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		87CC4D642E8AE88600019A91 /* StorySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySectionView.swift; sourceTree = "<group>"; };
-		87CC4D662E8AE97200019A91 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
-		87CC4D682E8AF24200019A91 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
 		87CC4D6A2E8AF89B00019A91 /* VideoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,20 +109,8 @@
 				877A26772E8BE7E800F7A454 /* Tabs */,
 				877A26762E8BE78500F7A454 /* Story */,
 				877A26752E8BE77600F7A454 /* Search */,
-				877A26742E8BE76800F7A454 /* Post */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		877A26742E8BE76800F7A454 /* Post */ = {
-			isa = PBXGroup;
-			children = (
-				877A26722E8BE72F00F7A454 /* AdsPostView.swift */,
-				87CC4D662E8AE97200019A91 /* PostView.swift */,
-				87CC4D682E8AF24200019A91 /* CreatePostView.swift */,
-			);
-			name = Post;
-			path = "Pót";
 			sourceTree = "<group>";
 		};
 		877A26752E8BE77600F7A454 /* Search */ = {
@@ -377,7 +359,6 @@
 			files = (
 				877A26662E8BDBC900F7A454 /* FeedModels.swift in Sources */,
 				87CC4D352E8AE09100019A91 /* ZaloNewsFeedApp.swift in Sources */,
-				87CC4D692E8AF24200019A91 /* CreatePostView.swift in Sources */,
 				87CC4D652E8AE88600019A91 /* StorySectionView.swift in Sources */,
 				876C4E022E8BAB060043A1B6 /* DiaryTabView.swift in Sources */,
 				87CC4D6B2E8AF89B00019A91 /* VideoTabView.swift in Sources */,
@@ -386,8 +367,6 @@
 				876C4DFA2E8B92000043A1B6 /* HeaderTabsView.swift in Sources */,
 				877A266F2E8BDD7300F7A454 /* FeedDataManager.swift in Sources */,
 				877A266C2E8BDD4300F7A454 /* VideoTabViewModel.swift in Sources */,
-				87CC4D672E8AE97200019A91 /* PostView.swift in Sources */,
-				877A26732E8BE72F00F7A454 /* AdsPostView.swift in Sources */,
 				876C4E002E8BA42A0043A1B6 /* SuggestStoryView.swift in Sources */,
 				87CC4D632E8AE6BC00019A91 /* SearchBarView.swift in Sources */,
 			);
