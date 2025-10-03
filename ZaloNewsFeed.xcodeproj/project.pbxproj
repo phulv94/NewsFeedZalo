@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		875C20962E8FEF4800E8EF9A /* Post in Resources */ = {isa = PBXBuildFile; fileRef = 875C20952E8FEF4800E8EF9A /* Post */; };
+		875C20992E8FF05000E8EF9A /* AdsPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C20982E8FF05000E8EF9A /* AdsPostView.swift */; };
+		875C209B2E8FF06100E8EF9A /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C209A2E8FF06100E8EF9A /* CreatePostView.swift */; };
+		875C209D2E8FF0B800E8EF9A /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C209C2E8FF0B800E8EF9A /* PostView.swift */; };
 		876C4DFA2E8B92000043A1B6 /* HeaderTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C4DF92E8B92000043A1B6 /* HeaderTabsView.swift */; };
 		876C4E002E8BA42A0043A1B6 /* SuggestStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C4DFF2E8BA42A0043A1B6 /* SuggestStoryView.swift */; };
 		876C4E022E8BAB060043A1B6 /* DiaryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C4E012E8BAB060043A1B6 /* DiaryTabView.swift */; };
@@ -45,7 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		875C20952E8FEF4800E8EF9A /* Post */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Post; sourceTree = "<group>"; };
+		875C20982E8FF05000E8EF9A /* AdsPostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsPostView.swift; sourceTree = "<group>"; };
+		875C209A2E8FF06100E8EF9A /* CreatePostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		875C209C2E8FF0B800E8EF9A /* PostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		876C4DF92E8B92000043A1B6 /* HeaderTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTabsView.swift; sourceTree = "<group>"; };
 		876C4DFF2E8BA42A0043A1B6 /* SuggestStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestStoryView.swift; sourceTree = "<group>"; };
 		876C4E012E8BAB060043A1B6 /* DiaryTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTabView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		875C20972E8FF02200E8EF9A /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				875C209C2E8FF0B800E8EF9A /* PostView.swift */,
+				875C209A2E8FF06100E8EF9A /* CreatePostView.swift */,
+				875C20982E8FF05000E8EF9A /* AdsPostView.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
 		877A266D2E8BDD5E00F7A454 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +119,7 @@
 		877A26702E8BE4C400F7A454 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				875C20952E8FEF4800E8EF9A /* Post */,
+				875C20972E8FF02200E8EF9A /* Post */,
 				877A26772E8BE7E800F7A454 /* Tabs */,
 				877A26762E8BE78500F7A454 /* Story */,
 				877A26752E8BE77600F7A454 /* Search */,
@@ -331,7 +345,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				87CC4D3D2E8AE09200019A91 /* Preview Assets.xcassets in Resources */,
-				875C20962E8FEF4800E8EF9A /* Post in Resources */,
 				87CC4D392E8AE09200019A91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,10 +377,13 @@
 				87CC4D6B2E8AF89B00019A91 /* VideoTabView.swift in Sources */,
 				877A266A2E8BDD2100F7A454 /* HeaderTabsViewModel.swift in Sources */,
 				877A26682E8BDCDC00F7A454 /* DiaryTabViewModel.swift in Sources */,
+				875C20992E8FF05000E8EF9A /* AdsPostView.swift in Sources */,
+				875C209B2E8FF06100E8EF9A /* CreatePostView.swift in Sources */,
 				876C4DFA2E8B92000043A1B6 /* HeaderTabsView.swift in Sources */,
 				877A266F2E8BDD7300F7A454 /* FeedDataManager.swift in Sources */,
 				877A266C2E8BDD4300F7A454 /* VideoTabViewModel.swift in Sources */,
 				876C4E002E8BA42A0043A1B6 /* SuggestStoryView.swift in Sources */,
+				875C209D2E8FF0B800E8EF9A /* PostView.swift in Sources */,
 				87CC4D632E8AE6BC00019A91 /* SearchBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
