@@ -46,33 +46,35 @@ private struct VideoCardView: View {
                 .lineLimit(2)
 
             HStack(spacing: 12) {
-                AsyncImage(url: video.avatarURL) { phase in
-                    switch phase {
-                    case .empty:
-                        Circle()
-                            .fill(Color(.systemGray5))
-                    case .success(let image):
-                        image
-                            .resizable()
-                            .scaledToFill()
-                    case .failure:
-                        Circle()
-                            .fill(Color(.systemGray5))
-                            .overlay(
-                                Image(systemName: "person.fill")
-                                    .foregroundStyle(.secondary)
-                            )
-                    @unknown default:
-                        Circle()
-                            .fill(Color(.systemGray5))
+ 
+                    CachedAsyncImage(url: video.avatarURL) { phase in
+                        switch phase {
+                        case .empty:
+                            Circle()
+                                .fill(Color(.systemGray5))
+                        case .success(let image):
+                            image
+                                .resizable()
+                                .scaledToFill()
+                        case .failure:
+                            Circle()
+                                .fill(Color(.systemGray5))
+                                .overlay(
+                                    Image(systemName: "person.fill")
+                                        .foregroundStyle(.secondary)
+                                )
+                        @unknown default:
+                            Circle()
+                                .fill(Color(.systemGray5))
+                        }
                     }
-                }
-                .frame(width: 36, height: 36)
-                .clipShape(Circle())
+                    .frame(width: 36, height: 36)
+                    .clipShape(Circle())
+                
 
                 Text(video.author)
                     .font(.subheadline)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(.primary)
 
                 Spacer(minLength: 0)
             }
@@ -94,7 +96,7 @@ private struct VideoThumbnail: View {
                 roundedRect
                     .fill(Color(.systemGray5))
 
-                AsyncImage(url: url) { phase in
+                CachedAsyncImage(url: url) { phase in
                     switch phase {
                     case .empty:
                         Color.clear

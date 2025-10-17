@@ -45,7 +45,7 @@ private struct RemoteMediaView: View {
     var cornerRadius: CGFloat = 0
 
     var body: some View {
-        AsyncImage(url: url, transaction: Transaction(animation: .easeInOut)) { phase in
+        CachedAsyncImage(url: url, transaction: Transaction(animation: .easeInOut)) { phase in
             switch phase {
             case .success(let image):
                 image
@@ -151,7 +151,7 @@ private struct PostCellBody: View {
 
     private var header: some View {
         HStack(alignment: .top, spacing: 12) {
-            AsyncImage(url: userAvatarURL, transaction: Transaction(animation: .easeInOut)) { phase in
+            CachedAsyncImage(url: userAvatarURL, transaction: Transaction(animation: .easeInOut)) { phase in
                 switch phase {
                 case .success(let image):
                     image

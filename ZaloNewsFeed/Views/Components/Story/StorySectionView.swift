@@ -35,7 +35,7 @@ struct StoryCell: View {
     var body: some View {
         Button(action: onTap) {
             ZStack(alignment: .bottomLeading) {
-                AsyncImage(url: story.thumbnailURL) { phase in
+                CachedAsyncImage(url: story.thumbnailURL) { phase in
                     if let image = phase.image {
                         image
                             .resizable()
@@ -58,7 +58,7 @@ struct StoryCell: View {
                 )
 
                 VStack(alignment: .leading, spacing: 8) {
-                    AsyncImage(url: story.avatarURL) { phase in
+                    CachedAsyncImage(url: story.avatarURL) { phase in
                         if let image = phase.image {
                             image
                                 .resizable()

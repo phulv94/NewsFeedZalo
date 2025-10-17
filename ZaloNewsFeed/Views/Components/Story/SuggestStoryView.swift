@@ -67,7 +67,7 @@ struct SuggestStoryCell: View {
                     .fill(Color(.systemGray6))
 
                 if let url = story.thumbnailURL {
-                    AsyncImage(url: url) { phase in
+                    CachedAsyncImage(url: url) { phase in
                         switch phase {
                         case .empty:
                             ProgressView()

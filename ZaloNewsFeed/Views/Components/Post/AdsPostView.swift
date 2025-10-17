@@ -17,7 +17,7 @@ struct AdsPostView: View {
 
     private var header: some View {
         HStack(alignment: .center, spacing: 12) {
-            AsyncImage(url: post.advertiserAvatarURL, transaction: Transaction(animation: .easeInOut)) { phase in
+            CachedAsyncImage(url: post.advertiserAvatarURL, transaction: Transaction(animation: .easeInOut)) { phase in
                 switch phase {
                 case .success(let image):
                     image
@@ -40,7 +40,7 @@ struct AdsPostView: View {
             .background(Color(.systemGray5))
             .clipShape(Circle())
 
-            VStack(alignment: .leading, spacing: 4) {
+            VStack(alignment: .leading, spacing: 0) {
                 Text(post.advertiserName)
                     .font(.headline)
                     .foregroundStyle(Color.primary)
@@ -88,7 +88,7 @@ private struct RemoteAdMediaView: View {
     var cornerRadius: CGFloat = 0
 
     var body: some View {
-        AsyncImage(url: url, transaction: Transaction(animation: .easeInOut)) { phase in
+        CachedAsyncImage(url: url, transaction: Transaction(animation: .easeInOut)) { phase in
             switch phase {
             case .success(let image):
                 image

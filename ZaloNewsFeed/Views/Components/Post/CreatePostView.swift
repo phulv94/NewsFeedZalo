@@ -10,7 +10,7 @@ struct CreatePostView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack(spacing: 12) {
-                AsyncImage(url: avatarURL) { phase in
+                CachedAsyncImage(url: avatarURL) { phase in
                     switch phase {
                     case .empty:
                         ProgressView()
